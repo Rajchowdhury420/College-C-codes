@@ -1,0 +1,12 @@
+#include<iostream.h>
+#include<conio.h>
+void main()
+{
+	clrscr();
+	float fah, cel;
+	cout<<"Enter temperature in Fahrenheit : ";
+	cin>>fah;
+	cel=(fah-32) / 1.8;
+	cout<<"Temperature in Celsius = "<<cel;
+	getch();
+}
