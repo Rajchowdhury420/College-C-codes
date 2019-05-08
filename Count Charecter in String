@@ -1,0 +1,22 @@
+#include<iostream.h>
+#include<conio.h>
+#include<stdio.h>
+void main()
+{
+	clrscr();
+	int i, count=0;
+	char str[1000], ch;
+	cout<<"Enter the String : ";
+	gets(str);
+	cout<<"Enter a character to find frequency : ";
+	cin>>ch;
+	for(i=0; str[i]!='\0'; i++)
+	{
+		if(ch==str[i])
+		{
+			count++;
+		}
+	}
+	cout<<"Frequency of the character "<<ch<<" = "<<count;
+	getch();
+}
